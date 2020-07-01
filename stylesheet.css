@@ -26,7 +26,11 @@ a {
   font-size : 25px;
   display : inline-block;
   margin : 0 4px;
-  color : #b3aeb5;
+  color : rgba(29, 60, 98, 0.5);
+}
+
+.icon:hover {
+  color : rgba(29, 60, 98, 0.8);
 }
 
 .lesson-wrapper {
