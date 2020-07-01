@@ -1,3 +1,88 @@
-.title {
-  color: #02ccba;
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.icon { 
+  font-size : 25px;
+  display : inline-block;
+  margin : 0 4px;
+  color : #b3aeb5;
+}
+
+.lesson-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: bold;
+  color: #b3aeb5;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson p {
+	margin: 0;
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+
+.description {
+	margin-top : 12px;
+	margin-bottom : 8px;
+}
+
+.text-contents span{
+  font-weight : bold; 
+}
+
+
+.frame {
+	width : 200px;
+	margin-bottom : 10px;
+}
+
+.item {
+	width : 40px
 }
